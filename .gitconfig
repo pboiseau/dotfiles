@@ -1,0 +1,32 @@
+[user]
+	name = paulboiseau
+	email = paulboiseau@gmail.com
+	signingkey = 3728173133FC96CB
+[color]
+    ui = true
+[color "status"]
+    added = green bold
+    changed  = cyan bold
+    untracked = yellow bold
+[color "branch"]
+    current = cyan bold
+    local = yellow
+    remote = green
+[pull]
+	rebase = preserve
+[push]
+	default = current
+[core]
+	editor = vim
+	excludesfile = /home/paul/.gitignore_global
+	fileMode = false
+[diff]
+	tool = vimdiff
+[web]
+	browser = google-chrome
+[alias]
+	lga = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cd)%Creset' --abbrev-commit --date=iso
+	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
+	discard = checkout HEAD --
+[fetch]
+	prune = true
