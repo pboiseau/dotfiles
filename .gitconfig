@@ -3,15 +3,17 @@
 	email = paulboiseau@gmail.com
 	signingkey = 3728173133FC96CB
 [color]
-    ui = true
+	ui = true
 [color "status"]
-    added = green bold
-    changed  = cyan bold
-    untracked = yellow bold
+	added = green bold
+	changed  = cyan bold
+	untracked = yellow bold
 [color "branch"]
-    current = cyan bold
-    local = yellow
-    remote = green
+	current = cyan bold
+	local = yellow
+	remote = green
+[commit]
+	gpgsign = true
 [pull]
 	rebase = preserve
 [push]
