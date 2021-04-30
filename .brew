@@ -21,6 +21,7 @@ brew install sops
 brew install go
 brew install kubernetes-cli
 brew install kubectx
+brew install helm
 brew install k9s
 brew install docker
 brew install docker-compose
@@ -31,6 +32,7 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 
 echo '--> Installing gui applications'
 brew install --cask iterm2
+brew install --cask gpg-suite
 brew install --cask docker
 brew install --cask slack
 brew install --cask discord
