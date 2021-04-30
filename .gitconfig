@@ -1,8 +1,17 @@
 [user]
-	name = paulboiseau
+	name = Paul Boiseau
 	email = paulboiseau@gmail.com
-	signingkey = 3728173133FC96CB
+	signingkey = 02406565AEE9915C
+[commit]
+	gpgsign = true
+[core]
+	editor = vim
+	excludesfile = /Users/Paul1/.gitignore_global
+	filemode = true
 [color]
+	branch = auto
+	diff = auto
+	status = auto
 	ui = true
 [color "status"]
 	added = green bold
@@ -12,23 +21,18 @@
 	current = cyan bold
 	local = yellow
 	remote = green
-[commit]
-	gpgsign = true
-[pull]
-	rebase = preserve
 [push]
-	default = current
-[core]
-	editor = vim
-	excludesfile = /home/paul/.gitignore_global
-	fileMode = false
-[diff]
-	tool = vimdiff
-[web]
-	browser = google-chrome
+	default = tracking
+[status]
+	submodulesummary = true
+	relativePaths = false
+	showUntrackedFiles = all
+[branch]
+	autosetuprebase = always
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
 [alias]
-	lga = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cd)%Creset' --abbrev-commit --date=iso
+	gpf = push --force-with-lease
 	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
-	discard = checkout HEAD --
-[fetch]
-	prune = true
