@@ -48,6 +48,7 @@ brew install --cask google-chrome
 brew install --cask spectacle
 brew install --cask goland
 brew install --cask phpstorm
+brew install --cask webstorm
 
 echo '--> Cleanup !'
 brew cleanup
