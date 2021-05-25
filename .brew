@@ -11,6 +11,8 @@ brew install git
 brew install vim
 brew install htop
 brew install fzf
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
 brew install bat
 brew install jq
 brew install wget
