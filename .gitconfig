@@ -1,7 +1,7 @@
 [user]
 	name = Paul Boiseau
-	email = paulboiseau@gmail.com
-	signingkey = 02406565AEE9915C
+	email = p.boiseau@meetic-corp.com
+	signingkey = 070E06ED256513BE
 [commit]
 	gpgsign = true
 [core]
@@ -22,7 +22,7 @@
 	local = yellow
 	remote = green
 [push]
-	default = tracking
+	default = current
 [status]
 	submodulesummary = true
 	relativePaths = false
@@ -34,5 +34,5 @@
 [rerere]
 	enabled = true
 [alias]
-	gpf = push --force-with-lease
+	pf = push --force-with-lease
 	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
