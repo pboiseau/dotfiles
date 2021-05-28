@@ -17,13 +17,16 @@ brew install bat
 brew install jq
 brew install wget
 brew install zsh
-brew install zsh-syntax-highlighting
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew install gpg
 brew install sops
 brew install go
 brew install kubernetes-cli
 brew install kubectx
 brew install helm
+# Helm plugins
+helm plugin install https://github.com/jkroepke/helm-secrets
 brew install k9s
 brew install docker
 brew install docker-compose

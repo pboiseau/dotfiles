@@ -1,12 +1,12 @@
 [user]
 	name = Paul Boiseau
-	email = p.boiseau@meetic-corp.com
+	email = hello@paulboiseau.ovh
 	signingkey = 070E06ED256513BE
 [commit]
 	gpgsign = true
 [core]
 	editor = vim
-	excludesfile = /Users/Paul1/.gitignore_global
+	excludesfile = /Users/$HOME/.gitignore_global
 	filemode = true
 [color]
 	branch = auto

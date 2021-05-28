@@ -6,6 +6,8 @@ help:
 install: ## Installs dotfiles into current environment
 	@$(MAKE) DOTFILE=.gitconfig  install_file
 	@$(MAKE) DOTFILE=.gitignore_global install_file
+	@$(MAKE) DOTFILE=.ssh/config install_file
+	@$(MAKE) DOTFILE=.zshrc install_file
 
 install_file:
 	@if [ ! -f ${HOME}/${DOTFILE} ]; then \
