@@ -4,6 +4,7 @@
 	signingkey = 070E06ED256513BE
 [commit]
 	gpgsign = true
+	program = /usr/local/bin/gpg
 [core]
 	editor = vim
 	excludesfile = /Users/$HOME/.gitignore_global
