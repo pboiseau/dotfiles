@@ -8,6 +8,7 @@ install: ## Installs dotfiles into current environment
 	@$(MAKE) DOTFILE=.gitignore_global install_file
 	@$(MAKE) DOTFILE=.ssh/config install_file
 	@$(MAKE) DOTFILE=.zshrc install_file
+	@$(MAKE) DOTFILE=.vimrc install_file
 
 install_file:
 	@if [ ! -f ${HOME}/${DOTFILE} ]; then \
