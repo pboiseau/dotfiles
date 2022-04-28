@@ -17,3 +17,10 @@ install_file:
 	else \
 		echo ✖ File already exists: ${HOME}/${DOTFILE}; \
 	fi \
+
+install_vimplug: ## Install vimplug plugins manager
+	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+install_zsh_plugins: ## Install ohmyzsh plugins
+	./.ohmyzsh
