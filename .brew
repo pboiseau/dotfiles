@@ -28,6 +28,7 @@ brew install kubectx
 brew install helm
 # Helm plugins
 helm plugin install https://github.com/jkroepke/helm-secrets
+helm plugin install https://github.com/databus23/helm-diff
 brew install k9s
 
 echo '--> Installing extract repository sources'
