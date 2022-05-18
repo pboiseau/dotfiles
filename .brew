@@ -25,6 +25,7 @@ brew install sops
 brew install go
 brew install kubernetes-cli
 brew install kubectx
+brew install krew
 brew install helm
 # Helm plugins
 helm plugin install https://github.com/jkroepke/helm-secrets
