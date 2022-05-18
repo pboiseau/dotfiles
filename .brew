@@ -28,8 +28,6 @@ brew install helm
 # Helm plugins
 helm plugin install https://github.com/jkroepke/helm-secrets
 brew install k9s
-brew install docker
-brew install docker-compose
 
 echo '--> Installing extract repository sources'
 brew tap go-swagger/go-swagger
