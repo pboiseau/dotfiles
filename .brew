@@ -23,6 +23,8 @@ brew install gpg2 pinentry-mac
 echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
 brew install sops
 brew install go
+brew install docker
+brew install colima
 brew install kubernetes-cli
 brew install kubectx
 brew install krew
@@ -42,7 +44,6 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 
 echo '--> Installing gui applications'
 brew install --cask iterm2
-brew install --cask docker
 brew install --cask multipass
 brew install --cask slack
 brew install --cask discord
